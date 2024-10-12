@@ -1,0 +1,156 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Open Sans;
+}
+
+
+/* shared styles */
+.primary-btn {
+    border-radius: 7px;
+    padding: 18px 35px;
+    background-color: rgb(253, 110, 10);
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.secondary-btn {
+    color: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid rgb(253, 110, 10);
+    padding: 18px 35px;
+    border-radius: 7px;
+}
+
+.secondary-background {
+    background-color: rgb(255, 248, 243);
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* header background */
+
+.header-background {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav styles */
+
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.special-text {
+    color: rgb(253, 110, 10);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+}
+
+/* banner styles */
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.greetings {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.profile-pic {
+    max-width: 584px;
+}
+
+/* about styles */
+
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    width: 1000px;
+    text-align: center;
+    padding: 100px 150px;
+}
+
+.about-text{
+    background-color: white;
+    border: 1px solid;
+}
+
+.about-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+}
