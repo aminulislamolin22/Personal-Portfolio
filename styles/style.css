@@ -36,7 +36,8 @@ main {
     margin: 0 auto;
 }
 
-.section-title {
+.section-title,
+.footer-title {
     color: rgb(24, 24, 24);
     font-size: 35px;
     font-weight: 700;
@@ -126,7 +127,7 @@ nav li a {
     max-width: 584px;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     gap: 30px;
 }
@@ -212,7 +213,7 @@ nav li a {
     margin-bottom: 60px;
 }
 
-.summary-items hr{
+.summary-items hr {
     color: rgb(209, 209, 209);
 }
 
@@ -234,7 +235,57 @@ nav li a {
     font-weight: 400;
 }
 
-.summary-btn-container{
+.summary-btn-container {
     display: flex;
     justify-content: center;
+}
+
+/* footer section */
+
+footer {
+    display: flex;
+    margin-top: 130px;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+.message, .connection {
+    margin: 130px 230px;
+}
+
+.connection p {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.message input {
+    text-align: left;
+    border: none;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.message textarea{
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.input-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 450px;
+}
+
+.footer-btn{
+    margin-top: 24px;
+}
+
+.social-img{
+    display: flex;
+    gap: 30px;
 }
